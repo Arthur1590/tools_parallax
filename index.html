@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Paralax</title>
+</head>
+
+<body>
+
+
+
+  <header class="header">
+    <nav class="header__nav">
+      <a href="#" class="header__logo">Logo</a>
+      <ul class="header__list">
+        <li>
+          <a href="#" class="header__link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="header__link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="header__link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="header__link">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <img class="header__fan" src="img/fantasy.png" alt="">
+    <img class="header__cloud cloud1" src="img/cloud1.png" data-speed="0.3" alt="">
+    <img class="header__cloud cloud2" src="img/cloud2.png" data-speed="-0.4" alt="">
+    <img class="header__cloud cloud3" src="img/cloud3.png" data-speed="0.5" alt="">
+    <img class="headr__boat" src="img/boat.png" alt="boat">
+    <h1 class="header__title">Parallax Effect</h1>
+  </header>
+
+  <main class="main">
+
+    <section class="about">
+      <div class="container">
+        <div class="scroll__card" data-speed="400"></div>
+        <div class="scroll__card" data-speed="800"></div>
+        <div class="scroll__card" data-speed="1200"></div>
+        <div class="scroll__card" data-speed="1600"></div>
+      </div>
+    </section>
+
+    <section class="parallax">
+      <h2 class="parallax__title">Parallax</h2>
+      <div class="parallax__box">
+        <img src="img/parallax/Parallax_3.png" class="parallax__banner" alt="">
+        <img src="img/parallax/Parallax_4.png" data-speed="2" class="parallax__ball layer1" alt="">
+        <img src="img/parallax/Parallax_5.png" data-speed="-5" class="parallax__ball layer2" alt="">
+      </div>
+    </section>
+
+    <section class="timer">
+      <div class="container">
+
+        <div class="timer__item">
+          <p class="timer__num" data-num="200">200</p>
+          <p class="timer__text">Lorem ipsum dolor sit amet.</p>
+          <a href="#" class="timer__btn">Button
+            <span></span>
+          </a>
+        </div>
+
+        <div class="timer__item">
+          <p class="timer__num" data-num="150">150</p>
+          <p class="timer__text">Lorem ipsum dolor sit amet.</p>
+          <a href="#" class="timer__btn">Button
+            <span></span>
+          </a>
+        </div>
+
+        <div class="timer__item">
+          <p class="timer__num" data-num="300">300</p>
+          <p class="timer__text">Lorem ipsum dolor sit amet.</p>
+          <a href="#" class="timer__btn">Button
+            <span></span>
+          </a>
+        </div>
+
+        <div class="timer__item">
+          <p class="timer__num" data-num="450">450</p>
+          <p class="timer__text">Lorem ipsum dolor sit amet.</p>
+          <a href="#" class="timer__btn">Button
+            <span></span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="card">
+      <div class="container">
+        
+        <div class="card__item">
+          <div class="card__item-el"></div>
+        </div>
+
+        <div class="card__item">
+          <div class="card__item-el"></div>
+        </div>
+
+        <div class="card__item">
+          <div class="card__item-el"></div>
+        </div>
+
+        <div class="card__item">
+          <div class="card__item-el"></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <script src="js.js"></script>
+</body>
+
+</html>
